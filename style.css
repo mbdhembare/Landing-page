@@ -75,5 +75,5 @@ button{
     font-weight: bold;
     color: #F9FAF8;
     border-radius: 0.2cm;
-    
+    border: 1px solid blue;
 }
