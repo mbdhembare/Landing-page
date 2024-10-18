@@ -58,7 +58,7 @@ a{
     gap: 8px;
 }
 .sec-1-container-1{
-    width: 500px;
+    font-weight: 900px;
     font-size: 48px;
     color: #F9FAF8;
 }
@@ -69,11 +69,52 @@ a{
 }
 
 button{
-    background-color: #6161fe;
+    background-color: #3882F6;
     padding:8px;
     width: 80px;
     font-weight: bold;
     color: #F9FAF8;
     border-radius: 0.2cm;
-    border: 1px solid blue;
+    border: 1px solid rgb(39, 39, 43);
+}
+
+/*section-2*/
+
+.sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 200px;
+    margin-top: 16px;
+}
+
+.sec-2-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 36px;
+}
+
+.information{
+    font-weight: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.info img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 0.2cm;
+}
+
+.info{
+    width: 200px;
+}
+
+.info div{
+    margin-top: 8px;
 }
